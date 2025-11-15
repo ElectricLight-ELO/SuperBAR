@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Serialization">
+      <UniqueIdentifier>{0d94a440-903a-4b93-bc43-ab02ec17043a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MATH_FUNC">
+      <UniqueIdentifier>{e3f85dc5-234b-426e-b489-c7fd1241078e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="superBAR.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="superBAR.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="superBAR.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClCompile Include="superBAR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <None Include="superBAR.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ResourceCompile Include="superBAR.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="setOfElements.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="Help.cpp">
+      <Filter>MATH_FUNC</Filter>
+    </ClCompile>
+    <ClCompile Include="cProcessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sliderDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="setOfElements.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="cProcessor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="sliderDialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Help.h">
+      <Filter>MATH_FUNC</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="cProcessor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="sliderDialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,31 @@
+<Items>
+    <FixedSupport>
+        <ox>14</ox>
+        <oy>46</oy>
+        <Direction>Left</Direction>
+    </FixedSupport>
+    <Beam>
+        <ox>14</ox>
+        <oy>58.5</oy>
+        <LengthBeam>300</LengthBeam>
+        <SectArea>2</SectArea>
+        <ModulusElastic>1</ModulusElastic>
+        <MaxStress>1</MaxStress>
+    </Beam>
+    <Beam>
+        <ox>314</ox>
+        <oy>58.5</oy>
+        <LengthBeam>150</LengthBeam>
+        <SectArea>1</SectArea>
+        <ModulusElastic>1</ModulusElastic>
+        <MaxStress>1</MaxStress>
+    </Beam>
+    <Force>
+        <force_H>-2</force_H>
+        <pos>2</pos>
+    </Force>
+    <LineLoad>
+        <q>1</q>
+        <beamDig>2</beamDig>
+    </LineLoad>
+</Items>

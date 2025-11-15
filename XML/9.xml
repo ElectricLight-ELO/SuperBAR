@@ -1,0 +1,19 @@
+<Items>
+    <FixedSupport>
+        <ox>202</ox>
+        <oy>-79</oy>
+        <Direction>Left</Direction>
+    </FixedSupport>
+    <Beam>
+        <ox>202</ox>
+        <oy>-66.5</oy>
+        <LengthBeam>150</LengthBeam>
+        <SectArea>1</SectArea>
+        <ModulusElastic>1</ModulusElastic>
+        <MaxStress>1</MaxStress>
+    </Beam>
+    <LineLoad>
+        <q>1</q>
+        <beamDig>1</beamDig>
+    </LineLoad>
+</Items>

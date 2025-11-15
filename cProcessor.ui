@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>cProcessorClass</class>
+ <widget class="QWidget" name="cProcessorClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>618</width>
+    <height>681</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>cProcessor</string>
+  </property>
+  <widget class="QTextEdit" name="textEdit_p_1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>571</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_p_1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>540</y>
+     <width>271</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>расчет</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_p_2">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>540</y>
+     <width>271</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>график</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_p_2">
+   <property name="geometry">
+    <rect>
+     <x>27</x>
+     <y>62</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_p_3">
+   <property name="geometry">
+    <rect>
+     <x>21</x>
+     <y>602</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>32</x>
+     <y>42</y>
+     <width>63</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>шаг</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>27</x>
+     <y>583</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>стержень</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>627</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>координата</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_p_4">
+   <property name="geometry">
+    <rect>
+     <x>19</x>
+     <y>646</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_p_3">
+   <property name="geometry">
+    <rect>
+     <x>124</x>
+     <y>600</y>
+     <width>81</width>
+     <height>66</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>найти в
+точке</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_p1">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>60</y>
+     <width>191</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Выводить все значения</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
